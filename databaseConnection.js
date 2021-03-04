@@ -1,12 +1,14 @@
+
+
 const mysql = require('mysql2');
 
 const is_heroku = process.env.IS_HEROKU || false;
 
 const dbConfigHeroku = {
 	host: "us-cdbr-east-03.cleardb.com",
-	user: "b1ab7fb2ee03bc",
-	password: "2a484a2d",
-	database: "heroku_3d208ad4bd6f421",
+	user: "b32493eef4d565",
+	password: "360d8eba",
+	database: "heroku_c23e1a7d453bc45",
 	multipleStatements: false
 };
 
